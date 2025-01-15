@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    max-width: 90%;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #f9f9f9;
+    color: #333;
+    outline: none;
+    
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #2575fc;
+    background: #f0f8ff;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background: linear-gradient(90deg, #2575fc, #6a11cb);
+}
+.bt{
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    color: white;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgb(71, 71, 71)
+}
+.bt:hover{
+    background-color: white;
+    color: black;
+}
+.form-group textarea{
+    height: 100px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.o{
+    border: 0.5px solid #e2dddd;
+    border-radius: 5px;
+    padding:30px;
+    background-color: #e2dddd;
+    
+    
+}
+.o li{
+    margin: 3px;
+    border-bottom: 1px solid rgb(151, 148, 148);
+}
